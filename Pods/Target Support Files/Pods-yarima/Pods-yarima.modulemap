@@ -1,0 +1,6 @@
+framework module Pods_yarima {
+  umbrella header "Pods-yarima-umbrella.h"
+
+  export *
+  module * { export * }
+}

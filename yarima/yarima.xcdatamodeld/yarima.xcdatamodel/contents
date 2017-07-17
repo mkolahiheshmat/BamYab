@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="AddFiles" syncable="YES">
+        <attribute name="detail" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Alldetail" syncable="YES">
+        <attribute name="ab" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="anbari" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="asansor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="balkon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bargh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estakhr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="floor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gaz" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ground" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jakozi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kitchen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maplat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maplong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nofloor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noroom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parking" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="property" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="room" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sona" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vazieyat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Detail" syncable="YES">
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ejareh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rahn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roomnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Entity" syncable="YES">
+        <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Ground" syncable="YES">
+        <attribute name="ground" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Kitchen" syncable="YES">
+        <attribute name="kitchen" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Position" syncable="YES">
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Property" syncable="YES">
+        <attribute name="property" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Region" syncable="YES">
+        <attribute name="cityname" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Users" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Detail" positionX="-63" positionY="63" width="128" height="180"/>
+        <element name="Entity" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Ground" positionX="-63" positionY="90" width="128" height="60"/>
+        <element name="Kitchen" positionX="-63" positionY="90" width="128" height="60"/>
+        <element name="Position" positionX="-54" positionY="99" width="128" height="60"/>
+        <element name="Property" positionX="-36" positionY="108" width="128" height="60"/>
+        <element name="Region" positionX="-63" positionY="90" width="128" height="60"/>
+        <element name="Users" positionX="-63" positionY="72" width="128" height="75"/>
+        <element name="Alldetail" positionX="-45" positionY="90" width="128" height="495"/>
+        <element name="AddFiles" positionX="-36" positionY="144" width="128" height="60"/>
+    </elements>
+</model>
